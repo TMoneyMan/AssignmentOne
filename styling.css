@@ -9,32 +9,32 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   h1 {
-    font-size: 2rem;
+    
     color: gray;
   }
   
   h2 {
-    font-size: 1.6rem;
+   
     color: gray;
   }
   
   h3 {
-    font-size: 1.25rem;
+
     color: gray;
   }
   
   h4 {
-    font-size: 1.1rem;
+
     color: gray;
   }
   
   h5 {
-    font-size: 1.05rem;
+
     color: gray;
   }
   
   h6 {
-    font-size: 1.0rem;
+
     color: gray;
   }
 
@@ -48,35 +48,4 @@ ol{
 
     color: gray;
 
-}
-
-ol.c{
-
-    list-style-type: upper-roman;
-
-}
-
-ol.d{
-
-    list-style-type: lower-alpha;
-
-}
-
-code{
-    font-weight: normal;
-    font-size: 0.95em;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    border: 1px solid #bbb;
-    background-color: #eee;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-footer{
-    background-color: #EBEBEB;
-    color: #696969;
-    border-top: 1px solid #D9D8D7;
-    height: 100px;
-    padding: 25px 0;
 }
