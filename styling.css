@@ -1,6 +1,7 @@
 /*
  https://github.com/mono/website/blob/gh-pages/css/main.css
- Got cot help from this css link while testing.
+ https://www.w3schools.com/css/css_list.asp
+ Got code help from this css link while testing.
 */
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,6 +41,24 @@ h1, h2, h3, h4, h5, h6 {
 p{
 
     color: gray;
+
+}
+
+ol{
+
+    color: gray;
+
+}
+
+ol.c{
+
+    list-style-type: upper-roman;
+
+}
+
+ol.d{
+
+    list-style-type: lower-alpha;
 
 }
 
