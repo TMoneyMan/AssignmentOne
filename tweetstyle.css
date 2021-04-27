@@ -1,0 +1,250 @@
+html{
+
+    margin: 0;
+    background: #eeeeee;
+
+}
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+
+
+}
+
+.navlist{
+
+    background: white;
+    margin: 0;
+    height: 40px;
+
+}
+
+.site-title{
+
+    position: relative;
+    font-weight: 300;
+    color: white;
+    background: #349bf2;
+    margin: 0;
+    padding: 5px;
+
+
+}
+
+.navlink{
+
+    padding: 0px;
+
+}
+
+.navitem{
+
+
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0%;
+    padding-top: 4px;
+    
+}
+
+.navitem > a {
+
+    line-height: 20px;
+
+}
+
+.navlink{
+
+    padding: 10px;
+
+}
+
+.active{
+
+    border-bottom: 5px solid #349bf2;
+
+}
+
+.navbar-search{
+
+    float: right;
+
+}
+
+#navbar-search-input{
+
+    border: 1px solid rgba(0, 0, 0, .10);
+    padding: 5px;
+    height: 20px;
+    width: 150px;
+    background: #eeeeee;
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+#navbar-search-input:focus{
+
+    background: white;
+
+}
+
+#navbar-search-button{
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+
+}
+
+#navbar-search-button:hover{
+
+    color: #349bf2;
+
+}
+
+li{
+
+    padding: 0px;
+    display: inline;
+    background: white;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+:placeholder-shown{
+
+    font-weight: 400;
+    font-size: 15px; 
+
+}
+
+a:hover{
+
+    color: #349bf2;
+    cursor: pointer;
+
+}
+
+li:hover{
+
+    color: #349bf2;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    color: #349bf2;
+    cursor: pointer;
+
+}
+
+.twit-container{
+
+    background: #eeeeee;
+    margin: 0;
+    padding: 50px 100px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: baseline;
+    align-content: flex-start;
+    
+
+}
+
+.twit{
+
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 250px;
+    min-height: 100px;
+    margin: 3px 3px;
+    padding: 10px;
+    align-items: baseline;
+    position: relative;
+
+
+}
+
+#create-twit-button{
+
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #f81612;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .25);
+    border: none;
+
+}
+
+#create-twit-button:hover{
+
+    font-size: 30px;
+    cursor: pointer;
+    background: #349bf2;
+    height: 60px;
+    width: 60px;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+.twit-author{
+
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+
+}
+
+.twit-icon{
+
+    position: absolute;
+    left: 20px;
+    top: 25px;
+
+}
+
+.twit-text{
+
+    position:absolute;
+    left: 45px;
+    right: 20px;
+
+}
+
+.twit-icon{
+
+    font-size: 20px;
+
+}
